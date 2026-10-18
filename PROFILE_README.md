@@ -1,26 +1,24 @@
-# Hi, I'm Shekinah 👋
+# Shekinah Olive
 
-**Applied AI & Machine Learning | Predictive Analytics · NLP · Computer Vision · Explainable AI**
+**Applied AI & Machine Learning | NLP · Computer Vision · Explainable AI**
 
 I build and evaluate machine-learning systems, from feature engineering and model comparison to explanation methods and interactive demos.
 
-Currently at **Tata Consultancy Services (TCS)**, where I developed a **Smart Manufacturing Digital Twin** as a *technical-training capstone*. Before TCS, I worked on enterprise data automation and AI-assisted data-quality workflows at **American Express**.
+Currently working at **Tata Consultancy Services (TCS)**. Previously, I worked on enterprise data automation and AI-assisted data-quality workflows at **American Express**, and supported machine-learning data workflows at **Amazon**.
 
-### Selected work
+### Selected projects
 
-| Project | Focus | Verified scope |
-|---|---|---|
-| [Lung Cancer Subtype Classification](https://github.com/shekinaholive/Lung-Cancer-Classification-) | MobileNetV2 features + XGBoost; Grad-CAM and SHAP | Hybrid notebook reports **98% rounded test accuracy** on 1,501 images |
-| [Suicide Risk Text Classification](https://github.com/shekinaholive/Suicidal-Text-Detection) | BERT vs TF-IDF + XGBoost; Integrated Gradients demo | Research prototype; external fine-tuned checkpoint required |
-| [Pneumonia Detection & XAI](https://github.com/shekinaholive/XAI-Project) | CNN, ResNet-18, VGG16; heatmaps | Academic classification experiments |
-| [Diabetes Prediction](https://github.com/shekinaholive/Early-Diabetes-Prediction) | MLP, XGBoost, TabNet | Tabular modeling comparison |
+| Project | Focus | Evidence |
+| --- | --- | --- |
+| [Lung Cancer Subtype Classification](https://github.com/shekinaholive/Lung-Cancer-Classification-) | MobileNetV2 features, XGBoost, Grad-CAM, SHAP | Hybrid notebook reports **98% rounded test accuracy** on 1,501 images |
+| [Suicide Risk Detection](https://github.com/shekinaholive/Suicidal-Text-Detection) | BERT vs XGBoost, Integrated Gradients | Academic NLP research demo; original fine-tuned checkpoint required |
+| [Pneumonia Detection](https://github.com/shekinaholive/XAI-Project) | ResNet-18, VGG16, CNN, XAI | Chest X-ray classification experiments |
+| [Diabetes Prediction](https://github.com/shekinaholive/Early-Diabetes-Prediction) | MLP, XGBoost, TabNet | Tabular classification experiments |
 
-### Core technologies
+### Technical focus
 
-Python · Scikit-learn · PyTorch · TensorFlow/Keras · XGBoost · Transformers · SQL · SHAP · Grad-CAM · Streamlit · Gradio · Pandas
+Python · Scikit-learn · TensorFlow · PyTorch · XGBoost · Transformers · SQL · SHAP · Grad-CAM · Gradio · Pandas
 
-### More about my work
+**[Portfolio](https://shekinaholive.github.io/)** · **[LinkedIn](https://www.linkedin.com/in/shekinah-o-ab69a1190/)**
 
-**[Portfolio website](https://shekinaholive.github.io/)** · **[LinkedIn](https://www.linkedin.com/in/shekinah-o-ab69a1190/)**
-
-*All medical and mental-health projects are academic prototypes, not clinically validated systems. My TCS capstone is a training prototype, not a client deployment.*
+*Medical and mental-health projects are academic prototypes, not clinically validated systems.*
