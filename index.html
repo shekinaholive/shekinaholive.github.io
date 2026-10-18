@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Shekinah Olive — applied AI and machine learning portfolio. Explore explainable computer vision, NLP and enterprise automation projects.">
+  <meta name="theme-color" content="#0a1424">
+  <title>Shekinah Olive | Applied AI & ML Engineering</title>
+  <style>
+    :root{--bg:#091321;--panel:#101e31;--panel2:#14253a;--line:#2b3d52;--text:#eaf1fa;--muted:#b5c5d6;--accent:#85dec6;--link:#a9ddff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+    body:before{content:"";position:absolute;z-index:-1;top:0;left:0;right:0;height:720px;background:radial-gradient(ellipse 700px 400px at 82% 16%,#174d5b66,transparent),radial-gradient(ellipse 520px 340px at 15% 20%,#25395f50,transparent);pointer-events:none}
+    a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:4px}a:hover{color:white}a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+    .container{width:min(1120px,calc(100% - 42px));margin:auto}.nav{border-bottom:1px solid #ffffff20;background:#0a1424e8;position:sticky;top:0;z-index:5;backdrop-filter:blur(16px)}
+    .nav-inner{display:flex;justify-content:space-between;align-items:center;min-height:76px;gap:20px}.mark{font-weight:800;letter-spacing:-.05em;color:var(--text);font-size:22px;text-decoration:none}.mark span{color:var(--accent)}
+    .nav-links{display:flex;flex-wrap:wrap;gap:18px}.nav-links a{font-size:14px;text-decoration:none;color:var(--muted)}.nav-links a:hover{color:var(--accent)}
+    .hero{padding:100px 0 88px;display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center}.eyebrow{color:var(--accent);font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:750}
+    h1,h2,h3,p{margin-top:0}h1{font-size:clamp(44px,6.5vw,80px);line-height:1.08;letter-spacing:-.064em;margin:15px 0 25px}h1 em{color:var(--accent);font-style:normal}
+    h2{font-size:clamp(28px,3vw,41px);line-height:1.17;letter-spacing:-.035em;margin-bottom:13px}h3{font-size:21px;line-height:1.3;letter-spacing:-.02em}.intro{font-size:18px;color:var(--muted);max-width:660px}
+    .buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;border-radius:10px;text-decoration:none;padding:10px 21px;font-weight:700;border:1px solid #618596;background:transparent;color:var(--text)}.button.primary{background:var(--accent);border-color:var(--accent);color:#071b1c}.button:hover{background:#d2ffef;color:#06151a}
+    .hero-card{border:1px solid #ffffff24;background:linear-gradient(145deg,#13293d,#0d1c2f);padding:30px;border-radius:22px;box-shadow:0 18px 48px #0004}.hero-card .code{font:13px/1.9 ui-monospace,SFMono-Regular,Consolas,monospace;color:#c7d8e8;white-space:pre-wrap}.code .green{color:var(--accent)}.code .blue{color:var(--link)}.cardline{height:1px;background:var(--line);margin:25px 0}.status{display:flex;gap:9px;align-items:center;font-size:13px;color:var(--muted)}.dot{width:9px;height:9px;background:var(--accent);border-radius:100%;box-shadow:0 0 14px #85dec688}
+    section{padding:76px 0;scroll-margin-top:82px}.section-head{max-width:710px;margin-bottom:28px}.section-head p,.muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:26px;display:flex;flex-direction:column;min-width:0}.card:hover{border-color:#709da4}.tag{display:inline-block;border:1px solid #43615f;background:#183634;color:#b1f2df;font:700 11px/1.6 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.065em;padding:5px 10px;border-radius:100px;margin-bottom:18px;align-self:flex-start}
+    .card p{color:var(--muted);font-size:14px;flex:1}.stat{padding:12px 0 18px;border-top:1px solid var(--line);color:#dce9f4;font-size:13px}.stat strong{color:var(--accent)}.card a{font-weight:700}.timeline{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .panel{border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:25px}.panel p{color:var(--muted);font-size:14px}.panel .small{font-size:12px;color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.07em}
+    .skills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.skill{padding:22px;border:1px solid var(--line);border-radius:13px;background:#132237}.skill h3{font-size:15px;margin-bottom:8px}.skill p{margin:0;color:var(--muted);font-size:14px}
+    .notice{background:#101f30;border-left:3px solid var(--accent);padding:16px 20px;color:var(--muted);border-radius:0 10px 10px 0;font-size:14px;margin-top:26px}
+    .contact{background:linear-gradient(135deg,#12313c,#101e31);padding:40px;border-radius:20px;border:1px solid #34525c}.contact p{color:var(--muted);max-width:650px}
+    footer{border-top:1px solid var(--line);padding:32px 0 46px;color:var(--muted);font-size:13px}.footer-inner{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+    @media(max-width:860px){.hero{grid-template-columns:1fr;gap:22px;padding:70px 0 55px}.hero-card{max-width:550px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:590px){.container{width:min(100% - 30px,1120px)}.nav-inner{align-items:flex-start;flex-direction:column;padding:14px 0;gap:5px}.nav-links{gap:12px}.hero{padding-top:45px}.grid,.skills,.timeline{grid-template-columns:1fr}.hero-card{padding:22px}.contact{padding:25px}section{padding:52px 0}h1{font-size:44px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <a href="#main" style="position:absolute;left:-9999px;top:0" onfocus="this.style.left='12px'" onblur="this.style.left='-9999px'">Skip to content</a>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="mark" href="#home" aria-label="Shekinah Olive home">SO<span>.</span></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#work">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div id="home" class="container hero">
+      <div>
+        <p class="eyebrow">Applied AI · Machine Learning · Intelligent Automation</p>
+        <h1>Hi, I'm Shekinah.<br><em>I build applied AI.</em></h1>
+        <p class="intro">I develop machine-learning prototypes and intelligent workflows spanning predictive analytics, NLP, computer vision and explainable AI — with an emphasis on transparent evaluation and practical interfaces.</p>
+        <div class="buttons">
+          <a class="button primary" href="#projects">Explore projects →</a>
+          <a class="button" href="https://github.com/shekinaholive" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a class="button" href="https://www.linkedin.com/in/shekinah-o-ab69a1190/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Portfolio overview">
+        <div class="status"><span class="dot"></span> Focused on AI/ML engineering</div>
+        <div class="cardline"></div>
+        <div class="code"><span class="blue">areas</span> = [
+  <span class="green">"Predictive modeling"</span>,
+  <span class="green">"NLP & Transformers"</span>,
+  <span class="green">"Computer vision"</span>,
+  <span class="green">"Explainable AI"</span>
+]
+
+<span class="blue">approach</span> = <span class="green">"Build → Evaluate → Explain"</span></div>
+        <div class="cardline"></div>
+        <p class="muted" style="font-size:13px;margin-bottom:0">Experience across AI research prototypes, engineering automation, and a TCS technical-training digital twin capstone.</p>
+      </aside>
+    </div>
+    <section id="about"><div class="container">
+      <div class="section-head"><p class="eyebrow">01 / About</p><h2>Models are the start, not the whole system.</h2></div>
+      <p class="intro">I’m an early-career AI/ML practitioner currently at Tata Consultancy Services (TCS). I enjoy combining model development with data preparation, evaluation, interpretability and user-facing applications. My previous engineering work at American Express involved automated data-readiness notifications and AI-assisted data-quality workflows.</p>
+      <p class="muted">I’m particularly interested in applied AI engineering, predictive analytics, intelligent automation, and reliable decision-support systems.</p>
+    </div></section>
+    <section id="work"><div class="container">
+      <div class="section-head"><p class="eyebrow">02 / Experience</p><h2>Where I've applied engineering.</h2></div>
+      <div class="timeline">
+        <article class="panel"><p class="small">Current · Tata Consultancy Services</p><h3>Technical training — AI digital twin capstone</h3><p>Developed a smart manufacturing aero-engine prototype using NASA C-MAPSS data: 30-cycle failure-risk estimation, next-cycle LSTM sensor forecasting, model monitoring, advisory alerts, and a Streamlit simulation/dashboard.</p><p><strong>Scope:</strong> Technical training prototype — not a client deployment. Internal integration code is not published.</p></article>
+        <article class="panel"><p class="small">Jan–Jul 2026 · American Express</p><h3>Engineering Intern</h3><p>Worked on automated data-readiness notifications using Apache Airflow, Python and BigQuery, and AI-assisted generation of data-quality checks.</p></article>
+        <article class="panel"><p class="small">Apr–Oct 2024 · Amazon</p><h3>ML Data Associate</h3><p>Contributed to data preprocessing, annotation quality control and validation supporting machine-learning workflows in robotics operations.</p></article>
+        <article class="panel"><p class="small">Feb–May 2025 · Mars Wrigley</p><h3>Content & SEO Intern</h3><p>Applied generative-AI-assisted content workflows for product listing optimization in the Southeast Asia region.</p></article>
+      </div>
+    </div></section>
+    <section id="projects"><div class="container">
+      <div class="section-head"><p class="eyebrow">03 / Selected work</p><h2>Projects, with evidence.</h2><p>Research and demonstration projects. Each repository documents its scope and limitations; reported benchmark results are not claims of production or clinical reliability.</p></div>
+      <div class="grid">
+        <article class="card"><span class="tag">Computer vision · Hybrid ML</span><h3>Lung Cancer Subtype Classification</h3><p>MobileNetV2 image-feature extraction combined with an XGBoost classifier. Explored Grad-CAM and SHAP explanations, plus an interactive Gradio notebook.</p><div class="stat"><strong>98% rounded test accuracy</strong> · 1,501 dataset test images in the saved hybrid notebook; preprocessing caveat documented.</div><a href="https://github.com/shekinaholive/Lung-Cancer-Classification-" target="_blank" rel="noopener noreferrer">View repository ↗</a></article>
+        <article class="card"><span class="tag">NLP · Transformers</span><h3>Suicide Risk Text Classification</h3><p>Compared BERT and traditional TF-IDF + XGBoost classifiers. A research Gradio interface demonstrates token-level Integrated Gradients explanations.</p><div class="stat"><strong>Research prototype</strong> · A fine-tuned checkpoint is required to run the demo; not intended for crisis screening.</div><a href="https://github.com/shekinaholive/Suicidal-Text-Detection" target="_blank" rel="noopener noreferrer">View repository ↗</a></article>
+        <article class="card"><span class="tag">Explainable AI · Imaging</span><h3>Pneumonia Detection & XAI</h3><p>Compared CNN, ResNet-18 and VGG16 for chest X-ray classification, and explored Grad-CAM / occlusion-sensitivity visualizations.</p><div class="stat"><strong>Academic evaluation</strong> · Results and implementation limitations documented.</div><a href="https://github.com/shekinaholive/XAI-Project" target="_blank" rel="noopener noreferrer">View repository ↗</a></article>
+        <article class="card"><span class="tag">Predictive analytics · LSTM</span><h3>Smart Manufacturing Digital Twin</h3><p>A TCS technical-training capstone integrating engine failure-risk modeling, multivariate sensor forecasting, alerts, model monitoring and recorded-data playback.</p><div class="stat"><strong>Training capstone</strong> · Public NASA data; internal source and MaaS details are not released.</div><a href="#contact">Discuss the project →</a></article>
+        <article class="card"><span class="tag">Tabular ML · Comparison</span><h3>Diabetes Prediction</h3><p>Explored MLP, XGBoost and TabNet for classification on structured data, with attention to preprocessing and interpretability.</p><div class="stat"><strong>Project-reported results</strong> · Reproduction notes included in the README.</div><a href="https://github.com/shekinaholive/Early-Diabetes-Prediction" target="_blank" rel="noopener noreferrer">View repository ↗</a></article>
+      </div>
+    </div></section>
+    <section id="skills"><div class="container">
+      <div class="section-head"><p class="eyebrow">04 / Toolkit</p><h2>Technologies behind the work.</h2></div>
+      <div class="skills">
+        <div class="skill"><h3>Machine learning</h3><p>Python, Scikit-learn, XGBoost, Pandas, NumPy, model evaluation</p></div>
+        <div class="skill"><h3>Deep learning & NLP</h3><p>TensorFlow/Keras, PyTorch, BERT, Transformers, LSTM, computer vision</p></div>
+        <div class="skill"><h3>Interpretability & interfaces</h3><p>Grad-CAM, SHAP, Integrated Gradients, Gradio, Streamlit</p></div>
+        <div class="skill"><h3>Data & engineering</h3><p>SQL, Apache Airflow, BigQuery, Git, GitHub, data-quality automation</p></div>
+      </div>
+      <div class="notice">This site presents completed academic and demonstration work. Technologies are listed where supported by project or work evidence; no production deployment of the TCS digital twin or clinical validation of medical models is claimed.</div>
+    </div></section>
+    <section id="contact"><div class="container"><div class="contact">
+      <p class="eyebrow">05 / Connect</p><h2>Let's talk applied AI.</h2>
+      <p>I'm interested in AI/ML engineering, intelligent automation, predictive analytics and explainability. Reach out through LinkedIn or explore the implementation notes on GitHub.</p>
+      <div class="buttons"><a class="button primary" href="https://www.linkedin.com/in/shekinah-o-ab69a1190/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a><a class="button" href="https://github.com/shekinaholive" target="_blank" rel="noopener noreferrer">Explore GitHub ↗</a></div>
+    </div></div></section>
+  </main>
+  <footer><div class="container footer-inner"><span>© 2026 Shekinah Olive · Applied AI portfolio</span><span>Built as a static site · <a href="https://github.com/shekinaholive/shekinaholive.github.io">Source on GitHub</a></span></div></footer>
+</body>
+</html>
