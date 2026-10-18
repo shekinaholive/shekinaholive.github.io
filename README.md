@@ -1,36 +1,26 @@
-# Shekinah Olive — AI/ML Engineering Portfolio
+# Shekinah Olive — AI/ML Portfolio
 
-I work on **applied machine learning, explainable AI, NLP and intelligent automation**, with a focus on moving models from experiments into understandable applications.
+An index of selected machine-learning and explainable AI projects.
 
-**Currently:** Tata Consultancy Services (TCS). My Smart Manufacturing Digital Twin was developed **during technical training** using a public aero-engine dataset. Project source code and internal MaaS configuration are **not published here**.
+**Currently working at Tata Consultancy Services (TCS).** Previous experience includes engineering automation at **American Express** and ML data operations at **Amazon**.
 
-## Selected AI projects
+## Selected projects
 
-| Project | What I built | Evidence |
-| --- | --- | --- |
-| [Lung Cancer Subtype Classification](https://github.com/shekinaholive/Lung-Cancer-Classification-) | MobileNetV2 feature extraction + XGBoost classification; SHAP / Grad-CAM exploration; Gradio demo | Recorded **98% test accuracy** on **1,501** images in the hybrid notebook |
-| [Suicide Risk Text Classification](https://github.com/shekinaholive/Suicidal-Text-Detection) | Comparison of BERT and TF-IDF + XGBoost; token-attribution demo | Academic text-classification prototype; checkpoint required for demo |
-| [Pneumonia Detection & XAI](https://github.com/shekinaholive/XAI-Project) | CNN, ResNet-18 and VGG16 comparison with visual explanations | Chest X-ray research experiments and Gradio prototype |
-| [Diabetes Prediction](https://github.com/shekinaholive/Early-Diabetes-Prediction) | MLP, XGBoost and TabNet comparison | Tabular classification experiment with reported model comparisons |
+| Project | Technologies and focus |
+| --- | --- |
+| [Lung Cancer Subtype Classification](https://github.com/shekinaholive/Lung-Cancer-Classification-) | MobileNetV2, XGBoost, Grad-CAM, SHAP; **98% rounded test accuracy** recorded on 1,501 test images |
+| [Suicide Risk Detection](https://github.com/shekinaholive/Suicidal-Text-Detection) | Fine-tuned BERT compared with XGBoost; Integrated Gradients research demo |
+| [Pneumonia Detection](https://github.com/shekinaholive/XAI-Project) | ResNet-18, VGG16, CNN, Grad-CAM and occlusion sensitivity |
+| [Diabetes Prediction](https://github.com/shekinaholive/Early-Diabetes-Prediction) | MLP, XGBoost and TabNet comparisons |
 
 ## Technical areas
 
-**Core ML:** Python, Scikit-learn, TensorFlow/Keras, PyTorch, XGBoost, Transformers, NLP and computer vision  
-**Interpretability:** SHAP, Grad-CAM, Integrated Gradients and model evaluation  
-**Data / tools:** Pandas, NumPy, SQL, Apache Airflow, BigQuery, Streamlit, Gradio, Git
+Python · Scikit-learn · TensorFlow · PyTorch · XGBoost · Transformers · NLP · Computer Vision · Explainable AI · SQL · Git
 
-## Engineering interests
+## Links
 
-- Applied AI and predictive analytics
-- Enterprise automation and intelligent decision-support
-- Explainable and responsible AI
-- Testing, evaluation and model monitoring
-
-I aim to document **what a model actually does**, how it was tested, and the limitations of its results. These repositories are mostly **academic and demonstration projects**, not production or clinical systems.
-
-## Connect
-
+- [Minimal portfolio website](https://shekinaholive.github.io/)
 - [LinkedIn](https://www.linkedin.com/in/shekinah-o-ab69a1190/)
-- [GitHub](https://github.com/shekinaholive)
+- [GitHub profile](https://github.com/shekinaholive)
 
-> This repository hosts an index of my work. To display an introduction **directly on my GitHub profile**, create a *public* repository named exactly \`shekinaholive\` and put a similar README.md there.
+*These repositories present academic and demonstration work; medical and mental-health classifiers are not clinically validated.*
